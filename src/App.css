@@ -56,10 +56,12 @@ input.placeholder{
   color: white;
 }
 .search-text:focus{
-  border: 1px solid black;
-  background-color: rgb(39, 0, 88);
+  outline: none;
 }
-.search-text:hover{
-  border: 1px solid black;
-  background-color: rgb(39, 0, 88);
+.avoid-flex{
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+margin-left: 20px;
 }
